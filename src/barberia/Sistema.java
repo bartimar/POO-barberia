@@ -28,14 +28,6 @@ public class Sistema {
         horario = new Horario();
         listaEspera = new ListaEspera();
     }
-
-    public void correPantalla() {
-        //TODO        
-        VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-        ventanaPrincipal.setVisible(true);
-        ventanaPrincipal.setTitle("Barbería Peina-T");
-    }
-
     //Cliente
     public void crearCliente(String nombre, String email, String numeroTelefono) {
         clientes.add(new Cliente(nombre, email, numeroTelefono));

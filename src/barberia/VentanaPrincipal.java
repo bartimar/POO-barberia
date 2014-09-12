@@ -12,14 +12,13 @@ package barberia;
  */
 public class VentanaPrincipal extends javax.swing.JFrame {
 
-    /**
-     * Creates new form VentanaPrincipal
-     */
+    private Sistema sistema; 
+    
     public VentanaPrincipal() {
         initComponents();
-        
+         Sistema sistema = new Sistema();
+       
     }
-
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -164,7 +163,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new VentanaPrincipal().setVisible(true);
+                VentanaPrincipal vp = new VentanaPrincipal();
+                vp.setVisible(true);
+                vp.setTitle("Barbería Peina-T");
             }
         });
     }
