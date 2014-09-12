@@ -80,10 +80,11 @@ public class Sistema {
     public void consultarTipoServicio(TipoServicio t) {
         
     }
-    
-    public void muestraTipoServicio() {
-        for(TipoServicio t : tipoServicios) {
-            System.out.println(t.toString());
-        }
-    }
+  
+    //TODO: Borrar esto de diagrama
+//    public void muestraTipoServicio() {
+//        for(TipoServicio t : tipoServicios) {
+//            System.out.println(t.toString());
+//        }
+//    }
 }

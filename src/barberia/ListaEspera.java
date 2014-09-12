@@ -18,10 +18,11 @@ public class ListaEspera {
     public ListaEspera() {
         clientes = new ArrayList<>();
     }
-
-    public void mostrar() {
-        System.out.println(toString());
-    }
+    
+//TODO: Borrar esto en diagrama
+    //public void mostrar() {
+    //    System.out.println(toString());
+    //}
 
     public String toString() {
         return "";
