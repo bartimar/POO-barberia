@@ -31,6 +31,7 @@ public class Sistema {
     //Cliente
     public void crearCliente(String nombre, String email, String numeroTelefono) {
         clientes.add(new Cliente(nombre, email, numeroTelefono));
+        
     }
 
     public void modificarCliente(int index, Cliente c) {
@@ -66,8 +67,8 @@ public class Sistema {
     }
     
     //TipoServicio
-    public void crearTipoServicio(String nombre) {
-        tipoServicios.add(new TipoServicio(nombre));
+    public void crearTipoServicio(String nombre, String descripcion) {
+        tipoServicios.add(new TipoServicio(nombre, descripcion));
     }
     public void modificarTipoServicio(int index, TipoServicio t) {
         tipoServicios.set(index,t);

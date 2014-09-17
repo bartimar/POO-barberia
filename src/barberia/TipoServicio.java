@@ -12,8 +12,9 @@ package barberia;
 public class TipoServicio {
 
     private String nombre;
+    private String descripcion;
 
-    public TipoServicio(String nombre) {
+    public TipoServicio(String nombre, String descripcion) {
         this.nombre = nombre;
     }
 
@@ -23,6 +24,14 @@ public class TipoServicio {
 
     public void setNombre(String pNombre) {
         nombre = pNombre;
+    }
+    
+    public String getDescripcion() {
+        return nombre;
+    }
+
+    public void setDescripcion(String pDescripcion) {
+        nombre = pDescripcion;
     }
     
     public String toString() {

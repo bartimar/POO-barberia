@@ -30,7 +30,7 @@ public class Cliente {
         Matcher matcher;
 
         final String NUMERO_PATTERN
-                = "^[0-9]{4,}[-]?[0-9]{4,}$";
+                = "^[0-9]{4,}[-]{0,1}[0-9]{4,}$";
 
         pattern = Pattern.compile(NUMERO_PATTERN);
 

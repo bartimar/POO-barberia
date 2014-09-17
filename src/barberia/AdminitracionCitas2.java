@@ -17,6 +17,7 @@ public class AdminitracionCitas2 extends javax.swing.JFrame {
      */
     public AdminitracionCitas2() {
         initComponents();
+        this.setTitle("Datos y Clientes");
     }
 
     /**
@@ -49,10 +50,10 @@ public class AdminitracionCitas2 extends javax.swing.JFrame {
         jCheckBox2 = new javax.swing.JCheckBox();
         jRadioButton1 = new javax.swing.JRadioButton();
         jRadioButton2 = new javax.swing.JRadioButton();
-        jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -103,13 +104,13 @@ public class AdminitracionCitas2 extends javax.swing.JFrame {
 
         jRadioButton2.setText("jRadioButton2");
 
-        jLabel18.setText("Administración de Citas");
-
         jLabel19.setText("Tipo de Cita");
 
         jLabel20.setText("Tipo1");
 
         jLabel21.setText("Tipo2");
+
+        jLabel18.setText("Administración de Citas");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -184,8 +185,9 @@ public class AdminitracionCitas2 extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
                 .addComponent(jLabel18)
-                .addGap(20, 20, 20)
+                .addGap(31, 31, 31)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
                     .addComponent(jLabel6)
@@ -207,17 +209,18 @@ public class AdminitracionCitas2 extends javax.swing.JFrame {
                     .addComponent(jRadioButton2)
                     .addComponent(jLabel20))
                 .addGap(15, 15, 15)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel11)
-                    .addComponent(jLabel12)
-                    .addComponent(jLabel13)
-                    .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 11, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel21, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 11, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jLabel2)
+                        .addComponent(jLabel11)
+                        .addComponent(jLabel12)
+                        .addComponent(jLabel13)))
                 .addGap(29, 29, 29)
                 .addComponent(jLabel3)
                 .addGap(59, 59, 59)
                 .addComponent(jLabel4)
-                .addContainerGap(83, Short.MAX_VALUE))
+                .addContainerGap(61, Short.MAX_VALUE))
         );
 
         pack();
